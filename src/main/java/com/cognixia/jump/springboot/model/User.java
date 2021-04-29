@@ -40,10 +40,10 @@ public class User implements Serializable{
 	@Column(unique = false, nullable = false)
 	private String password;
 	
-	@Column(name="FIRST_NAME")
+	@Column(name="FIRSTNAME")
 	String firstName;
 	
-	@Column(name="LAST_NAME")
+	@Column(name="LASTNAME")
 	String lastName;
 	
 	@Column(columnDefinition = "boolean default true")
